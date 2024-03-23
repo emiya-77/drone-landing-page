@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import About from './components/About'
 import Banner from './components/Banner'
 import Footer from './components/Footer'
@@ -5,8 +6,13 @@ import Gallery from './components/Gallery'
 import Slider from './components/Slider'
 import CardContainer from './components/cards/CardContainer'
 
-function App() {
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
+function App() {
+  useEffect(() => {
+    AOS.init();
+  })
   return (
     <>
       <div>

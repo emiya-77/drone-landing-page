@@ -2,7 +2,7 @@
 const Slider = () => {
   return (
     <div className="carousel w-full">
-      <div id="slide1" className="carousel-item relative w-full h-[600px] overflow-hidden">
+      <div id="slide1" className="carousel-item relative w-full h-[700px] overflow-hidden">
         <img src="https://cdn.thewirecutter.com/wp-content/media/2023/11/dronesforphotovideo-2048px-DSC4828.jpg?auto=webp&quality=75&crop=1.91:1&width=1200" className="w-full object-cover" />
         <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
           <a href="#slide4" className="btn btn-circle">❮</a>
